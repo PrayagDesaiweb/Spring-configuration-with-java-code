@@ -12,6 +12,8 @@ public class DemoApp {
 		// call a method of the bean
 		System.out.println(theCoach.getDailyWorkout());
 		System.out.println(theCoach.getDailyFortune());
+		System.out.println(theCoach.getName());
+		System.out.println(theCoach.getEmail());
 		// cloase the bean
 		context.close();
 
